@@ -27,3 +27,5 @@ body {
 .main-screen{
     padding:0px var(--horizontal-space);
 }
+
+body{ -ms-overflow-style: none; } ::-webkit-scrollbar { display: none; }
