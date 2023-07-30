@@ -4,7 +4,9 @@
     width: 100%;
     display:flex;
     justify-content:center;
-    padding:5px 3px;
+    padding:5px 5px;
+    background-color: #e99e99;
+    z-index: 3;
  
 }
 .status-bar__column {
@@ -21,6 +23,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-right: 10px;
+   
 }
 .status-bar__column .fa-battery-full {
     margin: 0px 5px;
