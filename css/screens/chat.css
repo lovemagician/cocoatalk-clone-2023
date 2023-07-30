@@ -39,8 +39,8 @@
 }
 
 .chat__timestamp {
-    color: white;
-    background-color: #e79d9a;
+    color: #2e363e;
+    background-color: white;
     padding: 15px;
     font-size: 14px;
     border-radius: 25px;
@@ -121,7 +121,8 @@
 }
 
 .message-row--own .message__bubble {
-    background-color: var(--yellow);
+    color: white;
+    background-color: #e79d9a;;
     border-top-right-radius: 0px;
     border-top-left-radius:15px;
     margin-right: 0px;
@@ -180,7 +181,8 @@
 }
 
 .reply__column button {
-    background-color: var(--yellow);
+    background-color: #e79d9a;;
+    color: white;
     border:none;
     width:35px;
     height: 35px;
